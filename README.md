@@ -12,6 +12,7 @@ npm install
 
   ```
   "scripts": {
+    "start": "node src/index.ts",
     "build": "npx tsc",
     "lint": "eslint .eslintrc --ext \"src/**/*.js\"",
     "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write",
